@@ -10,8 +10,6 @@ Pomocí Vagrant si vytvořte server s libovolnou Linux distribucí. Instalujte
 na nej  Zabbix Agent2 a upravte konfiguraci tak, aby se tento host
 automaticky registroval na privátní - [Zabbix pfSense](https://enceladus.pfsense.cz).
 
-![Ubuntu Zabbix Agent2](./Images/osy-Ubuntu-ZabbixAgent2.webp)
-
 ## Požadované známkované úkoly
 
 - Přihlašte se na Zabbix server Enceladus pod účtem spos a ověřte kolik hostů je monitorováno v tomto zabbixu.
@@ -27,3 +25,13 @@ automaticky registroval na privátní - [Zabbix pfSense](https://enceladus.pfsen
 - [Vagrant examples](https://github.com/sposdknl/2025-sposdk-osy/tree/main/Vagrant)
 
 ...
+
+# Postup
+
+- Stažení repozitáře z GitHubu.
+- Vytvoření a úprava Vagrantfile pro automatizování VM.
+- Přidání instalačních a konfiguračních skriptů pro instalaci zabbix-agent2.
+- Přihlásil se na zabbix a vyfotil svého hosta.
+- Vyexportoval jsem svého hosta jako XML soubor.
+
+![Ubuntu Zabbix Agent2](./Images/host.png)
